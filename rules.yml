@@ -1,0 +1,28 @@
+# Example rules for AI Tonnage Insight Pro
+
+required_columns:
+  - state
+  - product_name
+  - tonnage
+  - reporting_year
+
+min_tonnage: 0
+max_tonnage: 100000  # example soft upper bound per row
+
+allowed_states:
+  - IA
+  - IL
+  - NE
+  - MN
+  - WI
+  - IN
+  - MO
+
+# Thresholds per product (example only)
+product_thresholds:
+  NITROGEN:
+    max_tonnage: 50000
+  PHOSPHATE:
+    max_tonnage: 30000
+  POTASH:
+    max_tonnage: 40000
