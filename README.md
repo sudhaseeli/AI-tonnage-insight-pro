@@ -173,29 +173,10 @@ The included `data/sample_tonnage_data.csv` contains **fake example data**, such
 - Multiple products  
 - Varied tonnage values (including a few intentionally odd values to trigger anomalies)
 
-This keeps the project realistic without exposing any proprietary or sensitive information.
 
----
 
-## ✅ How to Talk About This Project on Your Resume
 
-You can describe this project as:
 
-> Built an AI-powered tonnage reporting assistant that validates regulatory-style tonnage data using configurable business rules, applies anomaly detection to flag unusual values, and generates human-readable compliance insights through a Streamlit interface.
 
----
 
-## ✅ How to Talk About This Project in an Interview
-
-Key points:
-
-- You designed it to mirror **regulatory reporting workflows**.
-- You separated:
-  - configuration (YAML rules),
-  - logic (rules engine + anomaly model),
-  - and presentation (Streamlit UI).
-- You used **ML as a helper**, not a replacement for rules.
-- It demonstrates practical **DataOps-style structure**: modular code, configs, sample data, and a simple UI layer.
-
----
 
