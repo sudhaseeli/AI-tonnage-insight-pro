@@ -5,9 +5,7 @@
 It mimics a real-world workflow where companies need to track product tonnage (for example, by state, product, and reporting period), identify issues before filing, and generate clear, auditable summaries for compliance and business users.
 
 This project is designed to be:
-- **Realistic enough for recruiters and hiring managers**
-- **Safe to share** (no confidential data or company-specific logic)
-- **Easy to run locally** with sample data included
+
 
 ---
 
@@ -201,4 +199,3 @@ Key points:
 
 ---
 
-This repository is intentionally written in a clear, educational style so that recruiters, engineers, and hiring managers can quickly understand how you think about **data quality, automation, and AI in a compliance context**.
